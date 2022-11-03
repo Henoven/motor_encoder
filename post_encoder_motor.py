@@ -10,7 +10,7 @@ Author: Eduardo Nigro
 import time
 import numpy as np
 from utils import plot_line
-from gpiozero_extended import Motor
+from motor_encoder.gpiozero_extended import Motor
 
 # Assigning parameter values
 T = 2  # Period of sine wave (s)
